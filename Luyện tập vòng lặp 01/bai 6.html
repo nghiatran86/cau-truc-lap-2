@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    var total = 0;
+    var count = 0;
+    for (let i = 0; i < 300; i++) {
+        if (i % 7==0){
+            console.log(i);
+            total+= i;
+            count++;
+        }
+        if (count >= 30){
+            break;
+        }
+    }
+    console.log(total);
+</script>
+</html>

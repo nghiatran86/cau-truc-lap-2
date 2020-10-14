@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let count = 0;
+    let a = 1;
+    let b = 2;
+    for (let i = 2; i <20 ; i++) {
+        let c = a;
+        a = b;
+        b = a + c;
+        if (b % 5 ==0){
+            console.log(b);
+            count++;
+        }
+        if(count ==1){
+            break;
+        }
+    }
+</script>
+</body>
+</html>

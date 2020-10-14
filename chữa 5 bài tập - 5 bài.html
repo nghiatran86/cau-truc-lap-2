@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+    // 1:    Cho dãy số vô hạn hãy in ra số ở vị trí 105
+    // let index = 0;
+    // while(true){
+    //      index++;
+    //      if(index == 105){
+    //          alert(index);
+    //          break;
+    //      }
+    //  }
+    //  2: Viết chương trình tính tổng của 20 số chẵn bắt đầu từ 12
+    // var total =0;
+    // let count = 0;
+    // for (let i = 12; i < 100; i++) {
+    //     if(i%2==0){
+    //         total = total + i;
+    //         count ++;
+    //     }
+    //     if(count >= 20){
+    //         break;
+    //     }
+    // }
+    // alert(total);
+    //3: Viết chương trình tính tổng của 20 số 5,10,15....100
+    // var total = 0;
+    // var count = 0;
+    // let i = 0;
+    // while(true){
+    //     i =i+5;
+    //     if(count == 20){
+    //         break;
+    //     }
+    //     console.log(i);
+    //     total += i;
+    //     count++;
+    // }
+    // alert(total);
+    //4: Viết chương trình in ra chữ: "Em có yêu anh không?", Và cho người dùng nhập c (có) hoặc k (không).
+    //  Khi nào nhập c thì dừng chương trình, còn nếu nhập k thì cứ bắt nhập lại.
+    //  var nguoiDungChon ="";
+    // do {
+    //     nguoiDungChon = prompt("Em có yêu anh không?");
+    // }while (nguoiDungChon != "c")
+    //5: In ra bảng cửu chương
+    // for (let j = 1; j < 10; j++) {
+    //     for (let k = 1; k < 10; k++) {
+    //         document.write(k + "x"+ j +"&nbsp;=&nbsp;"+ (j*k)+ "&nbsp;")
+    //     }
+    //     document.write("<br>")
+    // }
+    //
+    for (let i = 0; i < 10; i++) {
+        document.write("<br>");
+        for (let j = i; j > 0 ; j--) {
+            document.write("*");
+        }
+    }
+    document.write("<br>");
+    for (let i = 0; i < 10; i++) {
+        document.write("<br>");
+        for (let j = i; j < 10 ; j++) {
+            document.write("*");
+        }
+    }
+    document.write("<br>")
+    for (let i = 10; i > 0; i--) {
+        document.write("<br>");
+        for (let j = i; j < 10 ; j++) {
+            document.write("*");
+        }
+    }
+</script>
